@@ -13,6 +13,6 @@
       });
   }
   angular
-    .module("ricochetCMS", ["ui.router", "templates"])
+    .module("ricochetCMS", ["ui.router"])
     .config(config);
-})();
+})()

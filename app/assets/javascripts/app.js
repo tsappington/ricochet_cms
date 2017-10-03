@@ -13,6 +13,6 @@
       });
   }
   angular
-    .module("blocChat", ["ui.router", "templates"])
+    .module("ricochetCMS", ["ui.router", "templates"])
     .config(config);
 })();

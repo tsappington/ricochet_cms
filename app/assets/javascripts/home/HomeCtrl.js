@@ -3,6 +3,6 @@
     this.text = "First angular text"
   }
   angular
-    .module("blocChat")
+    .module("ricochetCMS")
     .controller("HomeCtrl", HomeCtrl);
 })();

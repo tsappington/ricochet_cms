@@ -1,9 +1,9 @@
 {
-  "name": "bloc-chat-rails",
+  "name": "ricochet-cms-rails",
   "authors": [
-    "Steven Lee-Kramer <sleekramer@gmail.com>"
+    "Ted Sappington <tedsappington@gmail.com>"
   ],
-  "description": "chat app using rails and angularjs",
+  "description": "cms backend for ricochet using rails and angularjs",
   "main": "",
   "moduleType": [],
   "license": "MIT",

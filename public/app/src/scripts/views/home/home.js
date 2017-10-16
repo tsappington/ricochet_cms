@@ -1,6 +1,8 @@
 (function () {
   function HomeCtrl () {
-    this.text = "First angular text"
+
+		console.log('home.js')
+
   }
   angular
     .module("ricochetCMS")

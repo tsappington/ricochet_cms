@@ -1,0 +1,9 @@
+	<h2>Clients</h2>
+
+	<table>
+		<tr ng-repeat="client in $ctrl.clients">
+			<td><a ui-sref="clients.detail({ id: client.id })">{{ client.name }}</a></td>
+		</tr>
+	</table>
+
+	<div ui-view></div>

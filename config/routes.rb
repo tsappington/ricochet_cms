@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
 
+	namespace :api, defaults:{format: :json} do
+		resources :clients, only: [:index, :show]
+	end
 
-	resources :clients, only: [:index, :show]
+  root to: 'application#index'
 
-  # root to: 'application#angular'
-
-
+	get "*path" => "application#index"
 end

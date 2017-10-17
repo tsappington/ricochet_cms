@@ -24,13 +24,7 @@
 			.state('clients.detail', {
 				url: '/:id',
 				templateUrl: '/app/src/scripts/views/client/_client.detail.html',
-				controller: function($stateParams, $http, $scope){
-					$http.get('/clients/' + $stateParams.id)
-						.then(function(response) {
-							$scope.client = response.data;
-							console.log('Client Name: ' + $scope.client.name)
-						});
-				}
+				controller: 'ClientDetailCtrl as $ctrl'
 			});
 
 			$urlRouterProvider.otherwise('/');

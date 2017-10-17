@@ -3,14 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>RicochetCMS</title>
-  <%= stylesheet_link_tag    'application', media: 'all' %>
-  <%= javascript_include_tag 'application' %>
-  <%= csrf_meta_tags %>
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300">
+	<link rel="stylesheet" type="text/css" href="/app/src/styles/normalize.css">
+	<link rel="stylesheet" type="text/css" href="/app/src/styles/main.css">
+  <title>Ricochet - CMS</title>
 </head>
 <body>
 
-  <ui-view><ui-view>
+	<%= yield %>
+
+	<script src="/bower_components/angular/angular.js"></script>
+	<script src="/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+
+  <script src="/app.js"></script>
+
+	<script src="/app/src/scripts/components/navbar/navbar.js"></script>
+	<script src="/app/src/scripts/views/home/home.js"></script>
+	<script src="/app/src/scripts/views/client/client.js"></script>
+	<script src="/app/src/scripts/views/client/client-detail.js"></script>
 
 </body>
 </html>

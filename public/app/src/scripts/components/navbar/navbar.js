@@ -1,7 +1,7 @@
 (function() {
     var navbarObj = {
       bindings: {},
-      templateUrl: 'app/src/scripts/components/navbar/navbar.html',
+      templateUrl: '/app/src/scripts/components/navbar/navbar.html',
       controller: navbarCtrl
     }
 

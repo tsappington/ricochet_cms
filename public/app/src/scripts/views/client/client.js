@@ -5,7 +5,7 @@
 
 		console.log('client.js')
 
-		$http.get('/clients')
+		$http.get('/api/clients')
 			.then(function(response) {
 				$ctrl.clients = response.data;
 				console.log($ctrl.clients)
